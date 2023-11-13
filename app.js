@@ -186,3 +186,107 @@ const people = ["John", "Peter", "Bob", "Doe"];
 // if (age !== 21){
 
 // }
+
+
+// for loop
+// let k = 5
+// for(let i = 10; i >= 0; i -= 1) {
+//         console.log(i);
+// }
+
+// break; continue
+
+// for (let i = 0; i < 10; i++){
+//         console.log(i);
+//         if(i === 5){
+//            break;
+//         }
+// }
+// for (let i = 0; i < 10; i++){
+//         if(i === 5){
+//            continue;
+//         }
+//         console.log(i);
+
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// for(let i = 0; i < numbers.length; i+= 1){
+//         // console.log(numbers[i]);
+//         if(numbers[i] === 5){
+//                 console.log("five is here");
+//                 break;
+//         }
+// }
+
+// for of / for in
+
+// for(let element of numbers ){
+//         console.log(element);
+// }
+
+// for(let index in numbers){
+//         console.log(numbers[index]);
+// }
+
+// function
+
+// function sayHello(){
+//         console.log("hello huys");
+// }
+
+// sayHello();
+
+
+// function myFunction(message){
+//         console.log(message);
+// }
+
+
+// myFunction("hello guys");
+
+// function sum(a,b){
+//         console.log(a + b);
+// }
+
+// sum(5,6);
+
+
+// function sum(){
+//         // console.log(arguments);
+//         let result = 0;
+//         for(let element of arguments){
+//            result += element;
+//         }
+//         console.log(result);
+// }
+
+// sum(3,4,5,6,7,8,9,8,45,3,2);
+
+// function sum(a,b){
+//         // console.log(a + b);
+//         let result = a + b;
+//         // alert(result);
+//         return result;
+// }
+
+// let result = sum(5,5);
+
+// console.log(result);
+
+// name();
+// secondName();
+
+// function declaration
+// function name(){
+//         console.log("name");
+// }
+
+// function expression
+
+// let secondName = function(){
+//         console.log("second name");
+// }
+
+
