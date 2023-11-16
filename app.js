@@ -101,7 +101,7 @@
 // alert(result);
 
 
-const people = ["John", "Peter", "Bob", "Doe"];
+// const people = ["John", "Peter", "Bob", "Doe"];
 
 // console.log(people);
 // console.log(people[1]);
@@ -289,4 +289,70 @@ const people = ["John", "Peter", "Bob", "Doe"];
 //         console.log("second name");
 // }
 
+// let x = 10;
+// let y = 5;
+// let z = x + y;
 
+// console.log(z);
+
+// console.log(;
+
+// printMe();
+
+// try{
+//         let x = 10;
+//         printMe();
+// } catch(exception){
+//         console.log("Error found");
+// }
+
+// try{
+//     printMe(); //error
+// }catch(exception){
+//         console.log(exception.name);
+//         console.log(exception.message);
+//         console.log(exception.stack);
+
+
+// }
+
+
+
+// try{
+//         let age = prompt("How old are you?");
+//         if(age < 18){
+//                 throw new Error("Age must be greater than 18");
+//         }else{
+//                 console.log("Welcome user");
+//         }
+// }catch(exception){
+//         console.log(exception.name);
+// }
+
+
+// const people = ["John", "Diana", "Peter", "Mykola", "Vsevolod"];
+
+
+// forEach map reduce filter find
+
+// for(let element of people){
+//         console.log(element);
+// }
+
+// people.map(function(element, index){
+//         // console.log(element);
+//         // console.log(index);
+// })
+
+// let newPeople = people.map(function(element, index){
+//         return element + "2";
+// })
+// console.log(newPeople)
+
+// const numbers = [1,2,3,4,5,6,7,8,9];
+
+// let result = numbers.reduce(function(multRes, element){
+//         return multRes * element;
+// }, 1)
+
+// console.log(result);
