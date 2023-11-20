@@ -356,3 +356,63 @@
 // }, 1)
 
 // console.log(result);
+
+// const user = {
+//         name: "John",
+//         age: 15,
+//         address: '123 Main St',
+//         friends: ["John", "John"], 
+//         // age: 18,
+//         sayHello: function(){
+//                 // console.log("hello");
+//                 // console.log(user.name);
+//                 // this
+//                 // console.log(this.name); - best practice
+//         }
+// }
+
+// console.log(user);
+// console.log(user.name);
+
+// let key = "name";
+// console.log(user[key]);
+// console.log(user.key);
+
+// user.name = "Peter";
+
+// user.surname = "PeterSon"
+
+// delete user.address;
+
+// user.name = "Volodymyr"
+
+// user.sayHello();
+// console.log(user);
+
+
+class User {
+        constructor(name, age, email){
+                this.name = name;
+                this.age = age;
+                this.email = email;
+        }
+
+        showName(){
+                console.log(this.name);
+        }
+}
+
+let user1 = new User("Peter", 20, "peter@gmail.com");
+let user2 = new User("John", 25, "john@gmail.com");
+
+// console.log(user1.name);
+// user1.name = "John";
+
+// console.log(user1.name);
+
+
+
+// user1.showName();
+
+// user2.showName();
+// console.log(user1);
