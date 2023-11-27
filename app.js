@@ -390,20 +390,20 @@
 // console.log(user);
 
 
-class User {
-        constructor(name, age, email){
-                this.name = name;
-                this.age = age;
-                this.email = email;
-        }
+// class User {
+//         constructor(name, age, email){
+//                 this.name = name;
+//                 this.age = age;
+//                 this.email = email;
+//         }
 
-        showName(){
-                console.log(this.name);
-        }
-}
+//         showName(){
+//                 console.log(this.name);
+//         }
+// }
 
-let user1 = new User("Peter", 20, "peter@gmail.com");
-let user2 = new User("John", 25, "john@gmail.com");
+// let user1 = new User("Peter", 20, "peter@gmail.com");
+// let user2 = new User("John", 25, "john@gmail.com");
 
 // console.log(user1.name);
 // user1.name = "John";
@@ -416,3 +416,134 @@ let user2 = new User("John", 25, "john@gmail.com");
 
 // user2.showName();
 // console.log(user1);
+
+// const title = document.getElementById("title");
+// const title = document.querySelector("#title");
+
+// console.log(title);
+
+// let titles = document.querySelectorAll("#title");
+
+// titles = [...titles];
+
+// console.log(titles);
+
+// const list = document.querySelector(".list");
+
+
+// console.log(list.children);
+// console.log(list.firstElementChild);
+// console.log(list.lastElementChild);
+// console.log(list.lastElementChild.previousElementSibling);
+// console.log(list.firstElementChild.nextElementSibling);
+
+// const textbox = document.querySelector(".textbox");
+
+// console.log(textbox.innerHTML);
+// console.log(textbox.outerHTML);
+
+// textbox.outerHTML = "<h1>text from js<h1/>"
+
+// textbox.innerHTML = "text from js";
+// textbox.innerHTML = "<h1>text from js<h1/>";
+
+
+// const input = document.querySelector(".inp");
+
+// console.log(input);
+// console.log(input.value);
+// console.log(input.className);
+// input.value = "new value";
+// input.className = "textbox";
+
+// const heading = document.createElement("h1");
+// const textbox = document.querySelector(".textbox");
+
+
+// heading.className = "heading";
+// heading.innerHTML = "text from js";
+
+
+
+// textbox.appendChild(heading);
+// textbox.append(heading);
+
+// console.log(heading);
+
+
+// const textbox = document.querySelector(".textbox");
+
+// textbox.innerHTML = '<h1 class="heading">text from js</h1>'
+// textbox.innerHTML += '<h1 class="heading">text from js</h1>'
+
+// textbox.innerHTML = `<h1 class="heading">text from js</h1>
+// <p>some text from js</p>
+// <button>press me</button>
+// `
+
+// textbox.style.color = "red";
+// textbox.style.backgroundColor = "blue";
+
+// let newWindow = window.open("https://google.com" , "", "width=250 height=250 top=200 left=150");
+
+// console.log(window.innerHeight);
+// console.log(window.innerWidth);
+
+// function sayHello(){
+//         console.log("hello world!");
+// }
+
+
+// header.addEventListener("click", function(){
+//         console.log("click from js");
+// })
+
+
+// let btn = document.querySelector(".btn");
+// let header = document.querySelector(".header");
+// let inp = document.querySelector(".inp");
+
+
+// function handleClick(){
+//         console.log("click from js");
+// }
+
+// btn.addEventListener("click", function(event){
+//         // console.log(event.type);
+//         // console.log(event.target);
+//         event.target.style.color = "green";
+
+// });
+
+// btn.addEventListener("click", function(event){
+//         header.style.color = "red";
+// })
+
+// btn.addEventListener("click", function(){
+//         console.log(inp.value);
+// })
+
+// let form = document.querySelector(".form");
+// const name = document.querySelector(".name");
+// const surname = document.querySelector(".surname");
+
+// form.addEventListener("submit", function(event){
+//         event.preventDefault();
+//         // console.log("form was submitted");
+
+//         alert(`Welcome ${name.value} ${surname.value}`);
+
+
+// })
+
+
+// setTimeout
+
+
+// setTimeout(function(){
+//         console.log("message after 5 sec")
+// }, 5000);
+
+// setInterval(function() {
+//        console.log("message every 5 sec") 
+// }, 5000);
