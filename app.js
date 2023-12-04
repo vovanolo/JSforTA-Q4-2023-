@@ -547,3 +547,101 @@
 // setInterval(function() {
 //        console.log("message every 5 sec") 
 // }, 5000);
+
+// const sayHello = function(){
+//         console.log("Hello");
+// }
+
+// const sayHello = () => {
+//         console.log("Hello");
+// }
+
+// sayHello();
+
+// const sayHello = function(message){
+//         return message;
+// }
+
+// const sayHello = message => {
+//         return message;
+// }
+// const sayHello = message => message;
+// const sum = function(a,b){
+//         return a + b;
+// }
+// const sum = (a,b) => a + b;
+
+// console.log(sum(2,2));
+
+// [1,2,3,4,5].map(function(element) {
+//         console.log(element);
+// })
+
+// [1,2,3,4,5].map(element => element + 2);
+
+// let newWindow = window.open("https://google.com", "", "width=300, height=300"); 
+
+
+// console.log("1");
+
+// setTimeout(() => {
+//         console.log("2");
+// });
+
+
+// console.log("3");
+
+
+// function getHello(){
+//         return "hello";
+// }
+
+// console.log(getHello());
+
+// function getHello() {
+//         return new Promise((resolve,reject) => {
+//                 resolve("hello");
+//         })
+// }
+
+// getHello().then((result) => console.log(result));
+
+
+// function sum(a,b){
+//         return new Promise((resolve,reject) => {
+//                 resolve(a + b);
+//         })
+// }
+
+// sum(4,4).then((result) => result + 2)
+//         .then((result) => result + 2)
+//         .then((result) => console.log(result));
+
+
+// function sum(a,b){
+//         return new Promise((resolve,reject) => {
+//                if(a > 0 && b > 0){
+//                         resolve(a + b);
+//                }else{
+//                 reject("a and b must be greater than zero");
+//                }
+//         })
+// }
+
+// sum(4,-4).then((result) => {
+//         console.log(result);
+//         return sum(5,5);
+//          })
+//         .then((result) => console.log(result))
+//         .catch((error) => {
+//                 console.error(error);
+//                 return sum(10,10);
+//         })
+//         .then((result) => console.log(result))
+
+
+// async function sayHello(){
+//         return "hello";
+// }
+
+// sayHello().then((result) => {console.log(result)});
