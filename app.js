@@ -645,3 +645,37 @@
 // }
 
 // sayHello().then((result) => {console.log(result)});
+
+// console.log("hel");
+
+// const http = require("http");
+
+
+// http.createServer(function(request, response){
+//         response.writeHead(200, {"Content-type": "text/html"});
+//         response.write("<h1>Hello all</h1>");
+//         response.end("End of response");
+// }).listen(8000);
+
+// console.log("Server listening on http://localhost:8000");
+
+// const {name} = require("./file.js");
+
+// console.log(name);
+
+
+// fetch - async method
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//         .then((result) => result.json())
+//         .then((result) => result.forEach((user) => {console.log(user.name)}));
+
+
+// async function getData(){
+//         let result = await fetch("https://jsonplaceholder.typicode.com/users");
+//         let data = await result.json();
+//         console.log(data);
+// }
+
+
+// getData();
