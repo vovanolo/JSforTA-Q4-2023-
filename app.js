@@ -679,3 +679,24 @@
 
 
 // getData();
+
+// let regExp = /hello/;
+// let regExp = /hello/i;
+// let regExp = /Hello/gi;
+
+
+
+
+// let string = "Hello guys hello all";
+
+// test() match()
+// console.log(regExp.test(string))
+// console.log(string.match(regExp));
+
+
+// console.log("my string 2234242.2422".match(/\d+\.\d+/))
+// console.log("my string 2234242".match(/\d+\.?\d*/))
+// console.log("my string -2234242.224242".match(/[-+]?\d+\.?\d*/))
+
+
+// /hello/mig
